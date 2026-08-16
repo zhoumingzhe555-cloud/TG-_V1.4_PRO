@@ -97,7 +97,7 @@ async def photo_handler(update, context: ContextTypes.DEFAULT_TYPE):
 
         await update.message.reply_text(
             "✅ 新客户\n\n"
-            "图片已加入客户库"
+            "新客户已加入客户库"
         )
 
 
