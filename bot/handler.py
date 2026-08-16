@@ -23,11 +23,11 @@ async def photo_handler(update, context: ContextTypes.DEFAULT_TYPE):
 
     if result:
         if result["type"] == "same":
-            text = (
-                "⚠️ 发现历史图片\n\n"
-                "匹配类型：同一图片\n"
-                "相似度：100%\n"
-                f"首次图片ID：{result['image_id']}"
+text = (
+    "⚠️ 撞客\n\n"
+    "匹配类型：同一图片\n"
+    "相似度：100%\n"
+)
             )
         else:
             text = (
