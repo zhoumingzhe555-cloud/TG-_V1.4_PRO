@@ -1,2 +1,2 @@
 def import_history(path):
-    pass
+    print("导入历史图片:", path)

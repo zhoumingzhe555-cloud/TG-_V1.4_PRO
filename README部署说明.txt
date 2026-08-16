@@ -1,1 +1,9 @@
-Railway部署：上传GitHub -> New Project -> Deploy from GitHub -> 设置Variables -> 启动。
+Railway修复版
+
+Variables:
+BOT_TOKEN=你的机器人Token
+DATABASE_PATH=/app/data/customers.db
+
+删除 ADMIN_ID 和 GROUP_ID。
+
+上传GitHub后Railway自动部署。
