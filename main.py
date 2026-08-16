@@ -1,6 +1,6 @@
 from core.database import init_db
-from bot.handler import start_bot
+from bot.app import start
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     init_db()
-    start_bot()
+    start()

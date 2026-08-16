@@ -1,9 +1,6 @@
 python-telegram-bot
-opencv-python-headless
 pillow
 imagehash
-numpy
-python-dotenv
-sqlalchemy
+opencv-python-headless
 pytesseract
-scikit-learn
+numpy
